@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+        <link href="input.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body class="bg-white dark:bg-gray-900">
+        
+        <header >
+           
+                <nav class="bg-white py-2 md:py-2 fixed w-full top-0">
+                    <div class="container px-4 mx-auto md:flex md:items-center">
+            <div class="flex justify-between items-center">
+              <a href="#home" class="font-bold text-xl text-white hover:bg-transparent hover:text-indigo-600 boder rounded-lg bg-indigo-600">RPD</a>
+              <button
+                class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
+                id="navbar-toggle"
+                >
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        
+        <div
+        class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0"
+        id="navbar-collapse"
+        >
+        <a
+        href="#"
+        class="p-2 lg:px-4 md:mx-2 text-white rounded bg-indigo-600"
+        >Home</a
+        >
+        <a
+        href="#about"
+        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+        >About</a
+        >
+        
+        <a
+        href="#price"
+        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+        >Pricing</a
+        >
+        <a
+        href="#contact"
+        class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+        >Contact</a
+        >
+        <a
+        href="#signin"
+        class="p-2 lg:px-4 md:mx-2 text-indigo-600 text-center border border-transparent rounded hover:bg-indigo-100 hover:text-indigo-700 transition-colors duration-300"
+        >Login</a
+        >
+        <a
+        href="#signup"
+        class="p-2 lg:px-4 md:mx-2 text-indigo-600 text-center border border-solid border-indigo-600 rounded hover:bg-indigo-600 hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
+        >Signup</a
+        >
+    </div>
+</div>
+</nav>
+
+</header>
+<main>
+    <section class="home bg-indigo-100 " id="home">
+    <div class="py-6 md:py-12">
+        <div class="container px-4 mx-auto">
+            <div class="text-center max-w-2xl mx-auto">
+                <h1 class="text-3xl md:text-4xl font-medium mb-2">
+                    Get the Perfect look for your awesome website.
+                </h1>
+                <button
+                class="bg-indigo-600 text-white py-2 px-6 rounded-full text-xl mt-6"
+                >
+                <a href="#contact">
+
+                  Get Started
+                </a>
+            </button>
+            <div class="mt-4">
+                <img
+                  src="/src/image/MUSIC FANS.png"
+                  alt="Landing Page"
+                  class="d-block max-w-full rounded-lg hover:shadow-2xl shadow-lg border-4"
+                  />
+                </div>
+            </div>
+            
+            <div class="md:flex md:flex-wrap md:-mx-4 mt-6 md:mt-12 ">
+                <div class="md:w-1/3 md:px-4 xl:px-6 mt-8 md:mt-0 text-center">
+                    <span
+                    class="w-20 border-t-2 border-solid border-blue-600 inline-block mb-3"
+                    ></span>
+                    <h5 class="text-xl font-medium uppercase mb-4">Fresh Design</h5>
+                    <p class="text-gray-600">
+                        RPD blocks bring in an air of fresh design with their creative
+                        layouts and blocks, which are easily customizable
+                    </p>
+                </div>
+                
+                <div class="md:w-1/3 md:px-4 xl:px-6 mt-8 md:mt-0 text-center">
+                    <span
+                    class="w-20 border-t-2 border-solid border-blue-600 inline-block mb-3"
+                    ></span>
+                    <h5 class="text-xl font-medium uppercase mb-4">Clean Code</h5>
+                    <p class="text-gray-600">
+                        RPD blocks are the cleanest pieces of HTML blocks, which are
+                        built with utmost care to quality and usability.
+                    </p>
+                </div>
+                
+                <div class="md:w-1/3 md:px-4 xl:px-6 mt-8 md:mt-0 text-center">
+                    <span
+                    class="w-20 border-t-2 border-solid  border-blue-600 inline-block mb-3"
+                    ></span>
+                    <h5 class="text-xl font-medium uppercase mb-4">Perfect Tool</h5>
+                    <p class="text-gray-600">
+                        RPD blocks is a perfect tool for designers, developers and
+                        agencies looking to create stunning websites in no time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- about -->
+ <section class="about py-12 text-center  bg-indigo-100 h-screen leading-6" id="about">
+    <h2 class="text-3xl font-bold mb-10">ABOUT</h2>
+     <div class="flex  justify-between ">
+    <p class="text-xl p-6 text-left   leading-loose">I’m Ramya, a passionate web developer with a growing expertise in modern front-end and UI design. My skill set includes HTML, CSS, JavaScript, React.js, Bootstrap,TailwindCss, GitHub, and Figma, along with a foundational understanding of Python and PHP.
+
+        Recently, I’ve been working on creating and optimizing landing pages to help businesses present their services effectively online. This journey has not only strengthened my technical skills but also deepened my understanding of user experience and digital branding.
+        
+        I’m excited to explore opportunities where I can combine my skills in development and design to deliver impactful web solutions. I'm particularly drawn to projects that allow me to innovate and grow alongside talented teams.  
+    </p>
+    </div>
+</section>
+
+    <section  id="price" class=" price box-border   text-gray-900 bg-indigo-100 border-0 border-gray-200 border-solid sm:py-12 md:py-16 lg:py-0">
+        <div class="box-border max-w-6xl px-4  mx-auto border-solid sm:px-6 md:px-6 lg:px-4">
+            <div class="flex flex-col items-center leading-7 text-center text-gray-900">
+                <h2 class="box-border m-0 text-3xl font-semibold leading-tight tracking-tight text-black border-solid sm:text-4xl md:text-5xl">
+                    Pricing Options
+                </h2>
+                <p class="box-border mt-4 text-2xl leading-normal text-gray-900 border-solid">
+                    We've got a plan for companies of any size
+                </p>
+                </div>
+                <div class="grid max-w-md mx-auto mt-6  overflow-hidden leading-7 text-gray-900 border border-b-4 border-gray-300  rounded-xl md:max-w-lg lg:max-w-none sm:mt-10 lg:grid-cols-3">
+                    <div class="box-border px-4 py-8 mb-6 text-center bg-white border-solid lg:mb-0 sm:px-4 sm:py-8 md:px-8 md:py-12 lg:px-10">
+                        <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-solid sm:text-3xl md:text-4xl">
+                            Basic
+                        </h3>
+                        <p class="mt-3 leading-7 text-gray-900 border-0 border-solid">
+                            The basic plan is a good fit for smaller teams and startups
+                        </p>
+                        <div class="flex items-center justify-center mt-6 leading-7 text-gray-900 border-0 border-solid sm:mt-8">
+                            <p class="box-border m-0 text-6xl font-semibold leading-normal text-center border-0 border-gray-200">
+                                $19
+                            </p>
+                            <p class="box-border my-0 ml-4 mr-0 text-xs text-left border-0 border-gray-200">
+                                per user <span class="block">per month</span>
+                            </p>
+                        </div>
+                        
+                        <button class="inline-flex items-center justify-center w-full py-3 mt-6 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-b-2 border-blue-600 rounded-md cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:text-white sm:text-base sm:mt-8 md:text-lg">
+                            Select Plan
+                        </button>
+                    </div>
+                    <div class="box-border   px-4 py-8 mb-6 text-center bg-gray-100 border border-gray-300 border-solid lg:mb-0 sm:px-4 sm:py-8 md:px-8 md:py-12 lg:px-10">
+                        <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-solid sm:text-3xl md:text-4xl">
+                            Plus
+                        </h3>
+                        <p class="mt-3 leading-7 text-gray-900 border-0 border-solid">
+                            The plus plan is a good fit for medium-size to larger companies
+                        </p>
+                        <div class="flex items-center justify-center mt-6 leading-7 text-gray-900 border-0 border-solid sm:mt-8">
+                            <p class="box-border m-0 text-6xl font-semibold leading-normal text-center border-0 border-gray-200">
+                                $39
+                            </p>
+                            <p class="box-border my-0 ml-4 mr-0 text-xs text-left border-0 border-gray-200">
+                                per user <span class="block">per month</span>
+                            </p>
+                        </div>
+                        <button class="inline-flex items-center justify-center w-full py-3 mt-6 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border-b-4 border-blue-700 rounded cursor-pointer hover:text-white sm:text-base sm:mt-8 md:text-lg">
+                            Select Plan
+                        </button>
+                    </div>
+                    <div class="box-border px-4 py-8 text-center bg-white border-solid sm:px-4 sm:py-8 md:px-8 md:py-12 lg:px-10">
+                        <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-solid sm:text-3xl md:text-4xl">
+                            Pro
+                        </h3>
+                        <p class="mt-3 leading-7 text-gray-900 border-0 border-solid">
+                            The pro plan is a good fit for larger and enterprise companies.
+                        </p>
+                        <div class="flex items-center justify-center mt-6 leading-7 text-gray-900 border-0 border-solid sm:mt-8">
+                            <p class="box-border m-0 text-6xl font-semibold leading-normal text-center border-0 border-gray-200">
+                                $59
+                            </p>
+                            <p class="box-border my-0 ml-4 mr-0 text-xs text-center border-0 border-gray-200">
+                                per user <span class="block">per month</span>
+                            </p>
+                        </div>
+                        <button class="inline-flex items-center justify-center w-full py-3 mt-6 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-b-2 border-blue-600 rounded cursor-pointer hover:bg-blue-600 hover:border-blue-600 hover:text-white sm:text-base sm:mt-8 md:text-lg">
+                            Select Plan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="py-2 bg-indigo-100" id="contact">
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <div class="grid lg:grid-cols-2 grid-cols-1">
+                    <div class="lg:mb-0 mb-10">
+                        <div class="group w-full h-full">
+                            <div class="relative h-full">
+                                <img src="./image/internet-6131260_1280.jpg" alt="ContactUs tailwind section" class="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-indigo-700 object-cover"/>
+                              <h1 class="font-manrope text-white text-4xl font-bold leading-10 absolute top-11 left-11">Contact us</h1>
+                              <div class="absolute bottom-0 w-full lg:p-11 p-5">
+                                  <div class="bg-white rounded-lg p-6 block">
+                                      <a href="javascript:;" class="flex items-center mb-6">
+                                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M22.3092 18.3098C22.0157 18.198 21.8689 18.1421 21.7145 18.1287C21.56 18.1154 21.4058 18.1453 21.0975 18.205L17.8126 18.8416C17.4392 18.9139 17.2525 18.9501 17.0616 18.9206C16.8707 18.891 16.7141 18.8058 16.4008 18.6353C13.8644 17.2551 12.1853 15.6617 11.1192 13.3695C10.9964 13.1055 10.935 12.9735 10.9133 12.8017C10.8917 12.6298 10.9218 12.4684 10.982 12.1456L11.6196 8.72559C11.6759 8.42342 11.7041 8.27233 11.6908 8.12115C11.6775 7.96998 11.6234 7.82612 11.5153 7.5384L10.6314 5.18758C10.37 4.49217 10.2392 4.14447 9.95437 3.94723C9.6695 3.75 9.29804 3.75 8.5551 3.75H5.85778C4.58478 3.75 3.58264 4.8018 3.77336 6.06012C4.24735 9.20085 5.64674 14.8966 9.73544 18.9853C14.0295 23.2794 20.2151 25.1426 23.6187 25.884C24.9335 26.1696 26.0993 25.1448 26.0993 23.7985V21.2824C26.0993 20.5428 26.0993 20.173 25.9034 19.8888C25.7076 19.6046 25.362 19.4729 24.6708 19.2096L22.3092 18.3098Z" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                          </svg>
+                                          <h5 class="text-black text-base font-normal leading-6 ml-5">123-450-1911</h5>
+                                      </a>
+                                      <a href="javascript:;" class="flex items-center mb-6">
+                                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M2.81501 8.75L10.1985 13.6191C12.8358 15.2015 14.1544 15.9927 15.6032 15.9582C17.0519 15.9237 18.3315 15.0707 20.8905 13.3647L27.185 8.75M12.5 25H17.5C22.214 25 24.5711 25 26.0355 23.5355C27.5 22.0711 27.5 19.714 27.5 15C27.5 10.286 27.5 7.92893 26.0355 6.46447C24.5711 5 22.214 5 17.5 5H12.5C7.78595 5 5.42893 5 3.96447 6.46447C2.5 7.92893 2.5 10.286 2.5 15C2.5 19.714 2.5 22.0711 3.96447 23.5355C5.42893 25 7.78595 25 12.5 25Z" stroke="#4F46E5" stroke-width="2" stroke-linecap="round"/>
+                                          </svg>
+                                          <h5 class="text-black text-base font-normal leading-6 ml-5">RPD@gmail.com</h5>
+                                      </a>
+                                      <a href="javascript:;" class="flex items-center">
+                                          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <path d="M25 12.9169C25 17.716 21.1939 21.5832 18.2779 24.9828C16.8385 26.6609 16.1188 27.5 15 27.5C13.8812 27.5 13.1615 26.6609 11.7221 24.9828C8.80612 21.5832 5 17.716 5 12.9169C5 10.1542 6.05357 7.5046 7.92893 5.55105C9.8043 3.59749 12.3478 2.5 15 2.5C17.6522 2.5 20.1957 3.59749 22.0711 5.55105C23.9464 7.5046 25 10.1542 25 12.9169Z" stroke="#4F46E5" stroke-width="2"/>
+                                              <path d="M17.5 11.6148C17.5 13.0531 16.3807 14.219 15 14.219C13.6193 14.219 12.5 13.0531 12.5 11.6148C12.5 10.1765 13.6193 9.01058 15 9.01058C16.3807 9.01058 17.5 10.1765 17.5 11.6148Z" stroke="#4F46E5" stroke-width="2"/>
+                                          </svg>
+                                          <h5 class="text-black text-base font-normal leading-6 ml-5">Bangalore</h5>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+      
+                  <div class="bg-gray-50 p-5 lg:p-11 lg:rounded-r-2xl rounded-2xl">
+                      <h2 class="text-indigo-600 font-manrope text-4xl font-semibold leading-10 mb-11">Send Us A Message</h2>
+                     <form>
+
+                       <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400  shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Name" required>
+                       <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Email" required>
+                       <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 shadow-sm bg-transparent text-lg font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Phone" required>
+                      <div class="mb-10">
+                          <h4 class="text-gray-500 text-lg font-normal leading-7 mb-4">Preferred method  of communication</h4>
+                          <div class="flex gap-10">
+                            <div class="inline-flex items-center">
+                              <label class="relative flex items-center cursor-pointer" for="email">
+                                <input name="framework" type="radio" class="peer h-5 w-5 cursor-pointer appearance-none rounded-full border border-slate-300 checked:border-slate-400 transition-all" id="email">
+                                <span class="absolute bg-slate-800 w-3 h-3 rounded-full opacity-0 peer-checked:opacity-100 transition-opacity duration-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                </span>
+                              </label>
+                              <label class="ml-2 text-slate-600 cursor-pointer  text-lg font-normal" for="email">Email</label>
+                            </div>
+                           
+                            <div class="inline-flex items-center">
+                              <label class="relative flex items-center cursor-pointer" for="phone">
+                                <input name="framework" type="radio" class="peer h-5 w-5 cursor-pointer appearance-none rounded-full border border-slate-300 checked:border-slate-400 transition-all" id="phone" checked="">
+                                <span class="absolute bg-slate-800 w-3 h-3 rounded-full opacity-0 peer-checked:opacity-100 transition-opacity duration-200 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                </span>
+                              </label>
+                              <label class="ml-2 text-slate-600 cursor-pointer text-lg font-normal" for="phone">Phone</label>
+                            </div>
+                          </div>
+             
+                      </div>
+                      <input type="text" class="w-full h-12 text-gray-600 placeholder-gray-400 bg-transparent text-lg shadow-sm font-normal leading-7 rounded-full border border-gray-200 focus:outline-none pl-4 mb-10" placeholder="Message">
+                      <button class="w-full h-12 text-white text-base font-semibold leading-6 rounded-full transition-all duration-700 hover:bg-indigo-800 bg-indigo-600 shadow-sm">Send</button>
+                    </form>
+              </div>
+            </div>
+          </section>
+
+<!-- signin /login-->
+
+
+     <section class="flex bg-indigo-100 min-h-full flex-col justify-center px-6 py-12 lg:px-8" id="signin">
+         <h2 class=" mb-3  text-center text-4xl  font-bold tracking-tight text-gray-900">LOGIN FORM</h2>
+         <div class="flex flex-col sm:w-full mb-4 mt-8  ">
+            <div class="flex justify-center mt-5">
+              <img src="./image/MUSIC FANS1.png" alt="Your Company" class="w-3/6 rounded-t-lg" />
+            </div>
+            <div class="flex justify-center w-full">
+              <form
+                class="flex w-3/6 flex-col border-2 border-gray-300 p-2 sm:flex-col sm:w-full"
+                action="#"
+                method="POST"
+              >
+                <div class=" ">
+                  <label for="email" class="block text-sm/6 font-medium text-gray-900"
+                    >Email address</label
+                  >
+                  <div class="mt-2">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      autocomplete="email"
+                      required
+                      class="block w-full  border-2 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                    />
+                  </div>
+                </div>
+      
+                <div>
+                  <div
+                    class="flex items-center justify-between sm:flex sm:flex-col flex-wrap sm:w-6/6"
+                  >
+                    <label
+                      for="password"
+                      class="block text-sm/6 font-medium text-gray-900"
+                      >Password</label
+                    >
+                    <div class="text-sm">
+                      <a
+                        href="#"
+                        class="font-semibold text-indigo-600 hover:text-indigo-500"
+                        >Forgot password?</a
+                      >
+                    </div>
+                  </div>
+                  <div class="mt-2">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      autocomplete="current-password"
+                      required
+                      class="block border-2 w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                    />
+                  </div>
+                </div>
+      
+                <div class="flex mt-4 justify-center items-center mb-10">
+                  <button
+                    type="submit"
+                    class="flex w-50 rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Sign in
+                  </button>
+                </div>
+                <p class="mt-10 text-center text-sm/6 text-gray-500">
+                  Not a member?
+                  <a
+                    href="#"
+                    class="font-semibold text-indigo-600 hover:text-indigo-500"
+                    >Start a 14 day free trial</a
+                  >
+                </p>
+              </form>
+            </div>
+          </div>
+        </section>
+<!-- signup -->
+<section
+class="signup bg-indigo-100  flex justify-center items-center h-screen"
+id="signup"
+>
+<div class="signup-1 flex items-center relative h-screen">
+  <div class="overlay absolute inset-0 z-0 bg-black opacity-75"></div>
+  <div class="container px-4 mx-auto relative z-10">
+    <div class="sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 mx-auto">
+      <div
+        class="box mb-10 bg-white p-6 md:px-12 md:pt-12 border-t-10  border-2 border-solid rounded-lg border-gray-300"
+      >
+        <h2
+          class="text-center text-3xl tracking-tight text-gray-900 uppercase font-bold"
+        >
+          Create Your Account
+        </h2>
+
+        <div class="signup-form mt-6 md:mt-12">
+          <div
+            class="border-2 border-solid rounded flex items-center mb-4"
+          >
+            <div
+              class="w-10 h-10 flex justify-center items-center flex-shrink-0"
+            ></div>
+            <div class="flex-1">
+              <input
+                type="text"
+                placeholder="Username"
+                class="h-10 py-1 pr-3 w-full"
+              />
+            </div>
+          </div>
+
+          <div
+            class="border-2 border-solid rounded flex items-center mb-4"
+          >
+            <div
+              class="w-10 h-10 flex justify-center items-center flex-shrink-0"
+            ></div>
+            <div class="flex-1">
+              <input
+                type="text"
+                placeholder="E-mail"
+                class="h-10 py-1 pr-3 w-full"
+              />
+            </div>
+          </div>
+
+          <div
+            class="border-2 border-solid rounded flex items-center mb-4"
+          >
+            <div
+              class="w-10 h-10 flex justify-center items-center flex-shrink-0"
+            ></div>
+            <div class="flex-1">
+              <input
+                type="password"
+                placeholder="Password"
+                class="h-10 py-1 pr-3 w-full"
+              />
+            </div>
+          </div>
+
+          <p class="text-sm text-center mt-6">
+            By signing up, you agree to our
+            <a href="#" class="text-indigo-600 hover:underline">Terms</a>
+            and
+            <a href="#" class="text-indigo-600 hover:underline"
+              >Privacy Policy</a
+            >
+          </p>
+
+          <div class="text-center mt-6 md:mt-12">
+            <button
+              class="bg-indigo-600 hover:bg-indigo-700 text-white text-xl py-2 px-4 md:px-6 rounded transition-colors duration-300"
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+
+        <div class="border-t border-solid mt-6 md:mt-12 pt-4">
+          <p class="text-gray-500 text-center">
+            Already have an account,
+            <a href="#signin" class="text-indigo-600 hover:underline"
+              >Sign In</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+    <footer class="flex flex-col bg-white  fixed 
+    inset-x-0 
+    bottom-0">
+        <div class="bg-gray-100">
+            <div class="w-full flex  flex-wrap px-4 sm:px-6 text-gray-800  mx-auto justify-center items-center">
+                <div class="">
+                    <h3 class="font-bold text-xl text-indigo-600">RPD DESIGNER</h3>
+                </div>
+                <div class="p-5">
+                    <div class="text-sm uppercase text-indigo-600 font-bold">Resources</div>
+                    <a class="my-3 block" href="">Documentation <span class="text-teal-600 text-xs p-1"></span></a><a
+                        class="my-3 block" href="">Tutorials <span class="text-teal-600 text-xs p-1"></span></a><a
+                        class="my-3 block" href="">Support <span class="text-teal-600 text-xs p-1">New</span></a>
+                </div>
+                <div class="p-5">
+                    <div class="text-sm uppercase text-indigo-600 font-bold">Support</div>
+                    <a class="my-3 block" href="">Help Center <span class="text-teal-600 text-xs p-1"></span></a><a
+                        class="my-3 block" href="">Privacy Policy <span class="text-teal-600 text-xs p-1"></span></a><a
+                        class="my-3 block" href="">Conditions <span class="text-teal-600 text-xs p-1"></span></a>
+                </div>
+                <div class="p-5">
+                    <div class="text-sm uppercase text-indigo-600 font-bold">Contact us</div>
+                    <a class="my-3 block" href="">XXX XXXX, Floor 4 San Francisco, CA
+                        <span class="text-teal-600 text-xs p-1"></span></a><a class="my-3 block" href="#home">RPD@company.com
+                        <span class="text-teal-600 text-xs p-1"></span></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-gray-100 pt-2">
+            <div class="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col
+              max-w-screen-lg items-center">
+                <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                    <a href="#home" class="w-6 mx-1">
+                        <svg class="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" width="50%" height="50%"
+                            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                            <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                          5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
+                          -0.786,0.281 -1.213,0.333c0.436,-0.262 0.771,-0.676
+                          0.929,-1.169c-0.408,0.242 -0.86,0.418 -1.341,0.513c-0.385,-0.411
+                          -0.934,-0.667 -1.541,-0.667c-1.167,0 -2.112,0.945 -2.112,2.111c0,0.166
+                          0.018,0.327 0.054,0.482c-1.754,-0.088 -3.31,-0.929
+                          -4.352,-2.206c-0.181,0.311 -0.286,0.674 -0.286,1.061c0,0.733 0.373,1.379
+                          0.94,1.757c-0.346,-0.01 -0.672,-0.106 -0.956,-0.264c-0.001,0.009
+                          -0.001,0.018 -0.001,0.027c0,1.023 0.728,1.877 1.694,2.07c-0.177,0.049
+                          -0.364,0.075 -0.556,0.075c-0.137,0 -0.269,-0.014 -0.397,-0.038c0.268,0.838
+                          1.048,1.449 1.972,1.466c-0.723,0.566 -1.633,0.904 -2.622,0.904c-0.171,0
+                          -0.339,-0.01 -0.504,-0.03c0.934,0.599 2.044,0.949 3.237,0.949c3.883,0
+                          6.007,-3.217 6.007,-6.008c0,-0.091 -0.002,-0.183 -0.006,-0.273c0.413,-0.298
+                          0.771,-0.67 1.054,-1.093Z"></path>
+                        </svg>
+                    </a>
+                <a href="#home" class="w-6 mx-1">
+                        <svg class="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" width="50%" height="50%"
+                            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                            <path id="Facebook" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
+                          5.373,-12 12,-12c6.627,0 12,5.373
+                          12,12Zm-11.278,0l1.294,0l0.172,-1.617l-1.466,0l0.002,-0.808c0,-0.422
+                          0.04,-0.648 0.646,-0.648l0.809,0l0,-1.616l-1.295,0c-1.555,0 -2.103,0.784
+                          -2.103,2.102l0,0.97l-0.969,0l0,1.617l0.969,0l0,4.689l1.941,0l0,-4.689Z"></path>
+                        </svg>
+            </a>
+                    <a href="#home" class="w-6 mx-1">
+                        <svg class="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" width="50%" height="50%"
+                            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                            <g id="Layer_1">
+                                <circle id="Oval" cx="12" cy="12" r="12"></circle>
+                                <path id="Shape" d="M19.05,8.362c0,-0.062 0,-0.125 -0.063,-0.187l0,-0.063c-0.187,-0.562
+                             -0.687,-0.937 -1.312,-0.937l0.125,0c0,0 -2.438,-0.375 -5.75,-0.375c-3.25,0
+                             -5.75,0.375 -5.75,0.375l0.125,0c-0.625,0 -1.125,0.375
+                             -1.313,0.937l0,0.063c0,0.062 0,0.125 -0.062,0.187c-0.063,0.625 -0.25,1.938
+                             -0.25,3.438c0,1.5 0.187,2.812 0.25,3.437c0,0.063 0,0.125
+                             0.062,0.188l0,0.062c0.188,0.563 0.688,0.938 1.313,0.938l-0.125,0c0,0
+                             2.437,0.375 5.75,0.375c3.25,0 5.75,-0.375 5.75,-0.375l-0.125,0c0.625,0
+                             1.125,-0.375 1.312,-0.938l0,-0.062c0,-0.063 0,-0.125
+                             0.063,-0.188c0.062,-0.625 0.25,-1.937 0.25,-3.437c0,-1.5 -0.125,-2.813
+                             -0.25,-3.438Zm-4.634,3.927l-3.201,2.315c-0.068,0.068 -0.137,0.068
+                             -0.205,0.068c-0.068,0 -0.136,0 -0.204,-0.068c-0.136,-0.068 -0.204,-0.204
+                             -0.204,-0.34l0,-4.631c0,-0.136 0.068,-0.273 0.204,-0.341c0.136,-0.068
+                             0.272,-0.068 0.409,0l3.201,2.316c0.068,0.068 0.136,0.204
+                             0.136,0.34c0.068,0.136 0,0.273 -0.136,0.341Z" style="fill: rgb(255, 255, 255);"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#home" class="w-6 mx-1">
+                        <svg class="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" width="50%" height="50%"
+                            viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
+                            <path id="Shape" d="M7.3,0.9c1.5,-0.6 3.1,-0.9 4.7,-0.9c1.6,0 3.2,0.3 4.7,0.9c1.5,0.6 2.8,1.5
+                          3.8,2.6c1,1.1 1.9,2.3 2.6,3.8c0.7,1.5 0.9,3 0.9,4.7c0,1.7 -0.3,3.2
+                          -0.9,4.7c-0.6,1.5 -1.5,2.8 -2.6,3.8c-1.1,1 -2.3,1.9 -3.8,2.6c-1.5,0.7
+                          -3.1,0.9 -4.7,0.9c-1.6,0 -3.2,-0.3 -4.7,-0.9c-1.5,-0.6 -2.8,-1.5
+                          -3.8,-2.6c-1,-1.1 -1.9,-2.3 -2.6,-3.8c-0.7,-1.5 -0.9,-3.1 -0.9,-4.7c0,-1.6
+                          0.3,-3.2 0.9,-4.7c0.6,-1.5 1.5,-2.8 2.6,-3.8c1.1,-1 2.3,-1.9
+                          3.8,-2.6Zm-0.3,7.1c0.6,0 1.1,-0.2 1.5,-0.5c0.4,-0.3 0.5,-0.8 0.5,-1.3c0,-0.5
+                          -0.2,-0.9 -0.6,-1.2c-0.4,-0.3 -0.8,-0.5 -1.4,-0.5c-0.6,0 -1.1,0.2
+                          -1.4,0.5c-0.3,0.3 -0.6,0.7 -0.6,1.2c0,0.5 0.2,0.9 0.5,1.3c0.3,0.4 0.9,0.5
+                          1.5,0.5Zm1.5,10l0,-8.5l-3,0l0,8.5l3,0Zm11,0l0,-4.5c0,-1.4 -0.3,-2.5
+                          -0.9,-3.3c-0.6,-0.8 -1.5,-1.2 -2.6,-1.2c-0.6,0 -1.1,0.2 -1.5,0.5c-0.4,0.3
+                          -0.8,0.8 -0.9,1.3l-0.1,-1.3l-3,0l0.1,2l0,6.5l3,0l0,-4.5c0,-0.6 0.1,-1.1
+                          0.4,-1.5c0.3,-0.4 0.6,-0.5 1.1,-0.5c0.5,0 0.9,0.2 1.1,0.5c0.2,0.3 0.4,0.8
+                          0.4,1.5l0,4.5l2.9,0Z"></path>
+                        </svg>
+                    </a>
+    
+                </div>
+                <div class="my-5"> © Copyright 2024. DESIGN @ RAMYA.</div>
+            </div>
+        </div>
+        
+        
+    </footer>
+    <script src="/src/main.js"></script>
+  </body>
+</html>
